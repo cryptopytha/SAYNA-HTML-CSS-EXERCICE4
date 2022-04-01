@@ -179,6 +179,12 @@ footer{
     height: auto;
 }
 /* 1ére partie de footer */
+
+
+.faqm{
+    display: none;
+}
+
 footer .faq{
     padding: 2em;
     display: flex;
