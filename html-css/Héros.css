@@ -1,0 +1,428 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@font-face{
+    font-family: 'spiderman';
+    src: url("/Far-From\ Homecoming\ Updated.otf");
+}
+
+
+
+body{
+    color: #fff;
+}
+
+/* en-tete */
+header{
+    background-color: #114C92;
+}
+
+header #bloc-nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1em;
+}
+
+/* logo */
+
+header #bloc-nav .logo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header #bloc-nav .logo img{
+    padding-left: 1em;
+}
+
+/* barre de navigation */
+header #bloc-nav nav a{
+    text-decoration: none;
+    color: #ffffff;
+    padding-right: 2.9em;
+    font-size: 1.5em;
+}
+
+
+/* bloc1 */
+
+.logom{
+    display: none;
+}
+
+
+ .bloc1{
+    background-image: url(/exercice4/Assets/Illustration/img19.png);
+    background-size: cover;
+    height: 80vh;
+    color: #ffffff;
+}
+
+ .bloc1 .centre{
+    padding: 10em;
+}
+
+ .bloc1 h1{
+    font-size: 6em;
+}
+
+h1,h2{
+    font-family: 'spiderman';
+}
+
+
+.bloc1 q{
+    font-size: 2em;
+}
+
+/* coprs */
+
+
+/* bloc2 */
+
+main .bloc2{
+    background-color: #114C92;
+    height: auto;
+}
+
+main .bloc2 .stan{
+    padding: 1em 0em 2em 6em;
+}
+
+main .bloc2 .stan h2{
+    padding-bottom: 0.4em;
+}
+
+main .bloc2 .bloc2-flex1{
+    padding: 2em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+main .bloc2 .bloc2-flex1 .elmh q{
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+/* bloc3 */
+
+main .bloc3{
+    background-image: url(/exercice4/Assets/Illustration/img20.png);
+    background-size: cover;
+    height: 60vh;
+    color: #ffffff;
+}
+
+main .bloc3 .conte3{
+    padding: 6em;
+    line-height: 2em;
+}
+
+/* bloc4 */
+
+main .bloc4{
+    background-color: #114C92;
+}
+
+main .bloc4 .puissance{
+    padding: 6em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: justify;
+}
+
+main .bloc4 .puissance .etpuis span{
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+main .bloc4 .pote-flex{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+main .bloc4 .pote-flex figure{
+    position: relative;
+}
+
+
+#ma{
+    position: absolute;
+    bottom: -9px;
+    left: 250px;
+}
+
+.dedicace h2{
+    padding-bottom: 1em;
+}
+
+main .bloc4 .pote-titre{
+    margin-left: 9.4em ;
+    margin-bottom: 2em;
+}
+
+main .bloc4 .photo-fille{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+main .bloc4 .photo-fille .mJ-ph{
+    padding: 2.9em;
+    max-width: 600px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,200px);
+    gap: 4em;
+}
+
+.mJ-ph p:nth-child(3){
+    margin-left: 7.2em;
+}
+
+/* bloc5 */
+
+main .bloc5{
+   
+}
+
+main  .bloc5 .tesla {
+    display: flex;
+
+}
+
+.musksp{
+    background-color: #B11313;
+    width: 50%;
+}
+
+.musksp h2{
+    padding: 2em;
+}
+
+.ax1{
+    display: flex;
+}
+
+.ax1 img{
+    margin: 0.9em;
+}
+
+.ax1 .texte{
+    margin: 0.9em;
+}
+
+.ax2{
+    display: flex;
+   
+}
+.ax2 .img2{
+    margin: 0.9em;
+}
+
+.spacex{
+    display: flex;
+    flex: 1;
+}
+
+/* bloc6 */
+
+main .bloc6{
+    background-image: url(/exercice4/Assets/Illustration/img33.png);
+    background-size:cover ;
+    height: 80vh;
+}
+
+.bloc6 .riche {
+    background-color: #6293ced0;
+    width: 500px;
+    margin: 0px 60%;
+    height: 80vh;
+}
+
+.bloc6 .riche .start {
+    text-align: right;
+}
+
+.bloc6 .riche .start h2,h3{
+    padding: 0.8em;
+    font-size: 1.8em;
+}
+
+.bloc6 .riche p{
+    text-align: justify;
+    padding: 1.2em;
+    font-size: 1.01em;
+}
+
+/* pied */
+
+footer{ 
+    text-align: center;
+    background-color: #000000;
+    height: auto;
+}
+
+/* 1ére partie de footer */
+
+footer .faq{
+    padding: 2em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.faqm{
+    display: none;
+}
+
+footer .faq .footer-logo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer .faq .footer-logo img{
+    padding: 0.5em;
+}
+
+footer .faq a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1em;
+}
+
+footer .faq  form select {
+    padding: 0.6em;
+    width: 16em;
+    border: 1px solid #114C92;
+    border-radius: 30px;
+    background-color: #114C92;
+    color: #fff;
+}
+
+/* 2éme partie */
+
+footer .reseau-social{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    padding: 2em;
+}
+
+footer .reseau-social p {
+    margin: 1em;
+    background-color: #114C92;
+    border-radius: 50%;
+    padding: 0.9em;
+}
+
+/* copyrighting */
+
+footer .copy{
+    padding: 2em;
+    font-size: 1.3em;
+    color: #ffffff;
+}
+
+/* responsive */
+
+@media only screen and (max-width: 900px){
+
+    /* en-tête */
+
+    header{
+        min-width: 500px;
+
+    }
+
+    header #bloc-nav{
+        display: none;
+    }
+
+    /* corp */
+
+    main{
+        min-width: 500px;
+    }
+
+    .logom{
+        padding-top: 20px;
+        padding-left: 20px;
+        display: block;
+    }
+
+    .bloc1{
+        height: 80vh;
+    }
+    
+    .bloc1 .centre{
+        padding: 1em;
+    }
+     
+    .centre h1{
+
+    }
+
+    .bloc5,.bloc6{
+        display: none;
+    }
+
+    /* pied */
+
+    footer{
+        min-width: 500px;
+    }
+
+    .footer-mob{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .faq a{
+        display: none;
+    }
+
+    .faqm {
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+    }
+
+    .faqm a{
+        text-decoration: none;
+        color: #fff;
+        padding-left: 10px;
+        padding-top: 10px;
+    }
+    
+    .footer-logo {
+        margin-left: 100px;
+    }
+
+    .footer-logo img{
+        padding: -1em;
+
+    }
+
+    footer .faq  form select{
+        width: 100px;
+        position: relative;
+        right: 90px;
+        top: -120px;
+    }
+
+    footer .faq .footer-logo img{
+        padding: 2px;
+    }
+}
+
