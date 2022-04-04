@@ -191,19 +191,32 @@ footer .faq{
     justify-content: space-around;
     align-items: center;
 }
+
 footer .faq .footer-logo{
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
+
 footer .faq .footer-logo img{
     padding: 0.5em;
 }
+
 footer .faq a{
     text-decoration: none;
     color: #ffffff;
     font-size: 1.2em;
 }
+
+footer .faq  form select {
+    padding: 0.6em;
+    width: 16em;
+    border: 1px solid #B11113;
+    border-radius: 30px;
+    background-color: #B11313;
+    color: #fff;
+}
+
 /* 2éme partie */
 footer .reseau-social{
     display: flex;
@@ -227,50 +240,117 @@ footer .copy{
 
 @media only screen and (max-width: 900px){
 
-    footer{
-        min-width: 500px;
+   header{
+    min-width: 600px;
+   }
+
+   nav a{
+       display: none;
+   }
+
+   /* corp */
+
+   main{
+    min-width: 600px;
+   }
+
+   .flex-apropos figure img{
+       width: 80%;
+        padding-bottom: 50px;
+   }
+
+   .elt{
+    margin-left: 38px;
+    width: 1000px;
     }
-    
-    .footer-mob{
+
+    .elt h1{
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+
+    .elt p{
+        font-size: 30px;
+    }
+
+    /* bloc2 */
+
+    .bloc2-apropos .petit p{
+        font-size: 20px;
+    }
+
+    .flex-bloc2{
         display: flex;
         flex-direction: column;
-    
+        align-items: center;
     }
-    
-    .faq a{
-        display: none;
-    }
-    
-    .faqm {
+
+    /* bloc3 */
+
+    .flex-bloc3a{
         display: flex;
         flex-direction: column;
-        text-align: start;
     }
-    
-    .faqm a{
-        text-decoration: none;
-        color: #fff;
-        padding-left: 10px;
-        padding-top: 10px;
+
+    .elt-3a{
+        text-align: justify;
+        font-size: 20px;
     }
-    
-    .footer-logo {
-        margin-left: 100px;
+
+    .flex-bloc3b{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
     }
-    
-    .footer-logo img{
-        padding: -1em;
-    
-    }
-    
-    footer .faq  form select{
-        width: 100px;
-        position: relative;
-        right: 90px;
-        top: -120px;
-    }
-    
-    footer .faq .footer-logo img{
-        padding: 2px;
-    }
+
+
+
+   /* pied */
+
+   footer{
+    min-width: 600px;
+   }
+
+.footer-mob{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.faq a{
+    display: none;
+}
+
+.faqm {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+.faqm a{
+    text-decoration: none;
+    color: #fff;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.footer-logo {
+    margin-left: 100px;
+}
+
+.footer-logo img{
+    padding: -1em;
+
+}
+
+footer .faq  form select{
+    width: 100px;
+    position: relative;
+    right: 90px;
+    top: -120px;
+}
+
+footer .faq .footer-logo img{
+    padding: 2px;
+}
 }

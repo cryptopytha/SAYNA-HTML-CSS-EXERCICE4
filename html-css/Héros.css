@@ -9,10 +9,9 @@
     src: url("/Far-From\ Homecoming\ Updated.otf");
 }
 
-
-
 body{
     color: #fff;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 /* en-tete */
@@ -190,9 +189,6 @@ main .bloc4 .photo-fille .mJ-ph{
 
 /* bloc5 */
 
-main .bloc5{
-   
-}
 
 main  .bloc5 .tesla {
     display: flex;
@@ -340,7 +336,7 @@ footer .copy{
     /* en-tête */
 
     header{
-        min-width: 500px;
+        min-width: 576px;
 
     }
 
@@ -350,9 +346,25 @@ footer .copy{
 
     /* corp */
 
+
+
     main{
-        min-width: 500px;
+        min-width: 576px;
     }
+
+
+
+    .bloc2-flex1  {
+        line-height: 26px;
+        text-align: justify;
+        font-size: 20px;
+    }
+
+    iframe{
+        padding-top: 20px;
+    }
+
+    
 
     .logom{
         padding-top: 20px;
@@ -367,11 +379,77 @@ footer .copy{
     .bloc1 .centre{
         padding: 1em;
     }
-     
-    .centre h1{
 
+    .bloc1 h1{
+        font-size: 40px;
     }
 
+    .bloc1 q{
+        font-size: 22px;
+    }
+
+
+    .bloc4 .puissance p{
+        text-align: justify;
+        line-height: 30px;
+        font-size: 22px;
+        width: 480px;
+    }
+
+    .pote-flex{
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .pote-flex figure{
+        position: relative;
+    }
+     .pote-flex p{
+         font-size: 18.9px;
+     }
+
+    #ma{
+        position: static;
+    }
+
+    .photo-fille{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .photo-fille p{
+        font-size: 18.4px;
+    }
+
+    .mJ-ph {
+        position: relative;
+    }
+
+    .mJ-ph p img{
+        width: 160px;
+    }
+
+    .mJ-ph p:nth-child(1){
+        margin-right: 80px;
+    }
+
+    .mJ-ph p:nth-child(2){
+        margin-left: 80px;
+    }
+
+    .mJ-ph p:nth-child(3){
+        position: absolute;
+        top: 50px;
+        left: 80px;
+    }
+    
+
+    /* bloc5 et bloc6 */
     .bloc5,.bloc6{
         display: none;
     }
@@ -379,7 +457,7 @@ footer .copy{
     /* pied */
 
     footer{
-        min-width: 500px;
+        min-width: 576px;
     }
 
     .footer-mob{
